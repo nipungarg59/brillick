@@ -17,6 +17,7 @@ initial() {
                 sudo apt-get install python3-pip
                 sudo pip3 install virtualenv
                 virtualenv -p python3 env
+                source $BRILLICK_BASE_DIR/env/bin/activate
                 pip install -r requirements.txt
             fi
         fi
