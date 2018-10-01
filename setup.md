@@ -27,6 +27,7 @@ export PROMPT_COMMAND=setup
    * virtualenv -p python3 env
    * source env/bin/activate
    * pip install -r requirements.txt
+6. run command ````db_setup````
 
 # Running The project
 1. python manage.py migrate 
